@@ -1,0 +1,63 @@
+body{
+	margin: 0;
+    padding: 0;
+    background:#1B1464;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+	
+}
+.logo, .nav, .gallary-item, .item{
+	background: #1B9CFC;
+}
+.logo, .nav{
+	margin: 9px 0;
+     height: 80px;
+     
+}
+.logo{
+	width: 28%;
+	float: left;
+}
+.logo h2{
+	font-color: ;
+	text-indent: 13px;
+}
+.nav{
+	width: 68%;
+	float: right;
+
+}
+.nav h2{
+	text-align: center;
+}
+.gallary{
+	margin-top: 110px;
+	display:flex;
+	justify-content: space-between;
+}
+.gallary-item{
+	height: 250px;
+	width: 250px;
+
+}
+.service{
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+
+}
+.item{
+	height: 350px;
+	width: 32%;
+}
+.footer{
+      height: 60px;
+      text-align: center;
+      width: 80%;
+      background: #1B9CFC;
+      margin-bottom: 20px;
+      margin-left: 10%;
+}
